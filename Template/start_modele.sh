@@ -2,13 +2,13 @@
 
 python3.5 --version
 
-while IFS=";" read -r test_name model bash_size epoch lr activation layer filtre
+while IFS=";" read -r test_name model bash_size epoch lr activation layer nb_filtre
 do
    echo "<----------------------------------------------------------------------------->\n"
    echo "<-------------------------------- $test_name --------------------------------->\n"
    echo "<----------------------------------------------------------------------------->\n"
    nvidia-smi
-   python3.5 Template_Final.py $test_name $model $bash_size $epoch $lr $activation $layer $filtre
+   python3.5 Template_Final.py $test_name $model $bash_size $epoch $lr $activation $layer $nb_filtre
    sleep 30
    echo "<----------------------------------------------------------------------------->"
    echo "<------------------------------------ FIN ------------------------------------>"
