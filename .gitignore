@@ -1,0 +1,4 @@
+LSTM/res_logs/*
+LSTMP/.ipyn_checkpoints
+Data/data/*
+*.[jpg]
