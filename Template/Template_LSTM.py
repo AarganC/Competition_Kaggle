@@ -8,6 +8,9 @@ def LSTM_TEMPLATE (inputs, nb_filtre, nb_layer):
     nb_filtre = int(nb_filtre)
     nb_filtre_b = nb_filtre*2
 
+    print(nb_filtre)
+    print(nb_filtre_b)
+
     x = Conv2D(nb_filtre,
                kernel_size=3,
                strides=1,
