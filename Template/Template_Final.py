@@ -121,8 +121,8 @@ if __name__ == "__main__":
     day = date.strftime("%d")
     hour = date.strftime("%H")
     minute = date.strftime("%M")
-    model_name = "{}{}{}{}{}{}_es{}_lr{}_bs{}_{}_ly{}_nf{}" \
-        .format(name_modele, year, month, day, hour, minute, epochs, lera, batch_size, activation, nb_layer, nb_filtre)
+    model_name = "{}{}{}{}{}{}{}_es{}_lr{}_bs{}_{}_ly{}_nf{}" \
+        .format(name_param, name_modele, year, month, day, hour, minute, epochs, lera, batch_size, activation, nb_layer, nb_filtre)
     if not os.path.isdir(save_dir):
         os.makedirs(save_dir)
     filepath = os.path.join(save_dir, model_name)
