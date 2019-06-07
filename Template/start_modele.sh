@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 
+python3.5 --version
+
 while IFS=";" read -r test_name model bash_size epoch lr activation layer filtre
 do
-   python Template_Final.py $test_name $model $bash_size $epoch $lr $activation $layer $filtre
-done < /Users/aargancointepas/Documents/ESGI-4IBD/MachineLearning/CompetitionKaggle/HyperParam/file_test.csv
+   echo "<----------------------------------------------------------------------------->\n"
+   echo "<-------------------------------- $test_name --------------------------------->\n"
+   echo "<----------------------------------------------------------------------------->\n"
+   nvidia-smi
+   python3.5 Template_Final.py $test_name $model $bash_size $epoch $lr $activation $layer $filtre
+   sleep 30
+   echo "<----------------------------------------------------------------------------->"
+   echo "<------------------------------------ FIN ------------------------------------>"
+   echo "<----------------------------------------------------------------------------->"
+done < ../HyperParam/file_test.csv

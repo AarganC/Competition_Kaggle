@@ -39,6 +39,11 @@ if __name__ == "__main__":
     nb_filtre = sys.argv[8]
     print(nb_filtre)
 
+    ## Setup memory use
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth=True
+    sess = tf.Session(config=config)
+    
     ## Preprocessing
 
     train_csv = pd.read_csv('../Data/data/train.csv')
