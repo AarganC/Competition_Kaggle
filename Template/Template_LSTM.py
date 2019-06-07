@@ -44,7 +44,7 @@ def LSTM_TEMPLATE (inputs, nb_filtre, nb_layer):
         O = Activation('sigmoid')(Hx)
         x = multiply([C, O])
 
-        nb_filtre_b = nb_filtre_b + 32
+        nb_filtre_b = nb_filtre_b + nb_filtre
 
     outputs = Conv2D(nb_filtre,
                       kernel_size=3,
