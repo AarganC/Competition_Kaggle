@@ -1,4 +1,4 @@
-LSTM/res_logs/*
-LSTMP/.ipyn_checkpoints
+Template/res_logs/*
+Template/.ipyn_checkpoints
 Data/data/*
 *.[jpg]
