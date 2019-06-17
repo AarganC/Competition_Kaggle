@@ -1,6 +1,6 @@
 ﻿test1;LSTM;512;70;0.001;a;5;32
 test2;LSTM;512;70;0.001;a;5;16
-test3;LSTM;512;70;0.001;a;4;32
+test3;LSTM;512;70;0.001;a;4;64
 test4;ResNet;512;70;0.001;selu;3;
 test5;ResNet;1024;70;0.001;selu;5;
 test6;ResNet;1024;70;0.001;selu;3;
