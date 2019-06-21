@@ -59,4 +59,3 @@ ResNettest33;ResNet;1024;70;0.0001;tanh;3;
 ResNettest34;ResNet;512;70;0.0001;selu;3;
 ResNettest35;ResNet;1024;70;0.0001;selu;5;
 ResNettest36;ResNet;128;70;0.0001;selu;3;
-

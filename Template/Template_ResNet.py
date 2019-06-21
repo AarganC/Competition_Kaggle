@@ -1,6 +1,6 @@
 import keras
 
-from keras.layers import Input, Conv2D, BatchNormalization, Activation, AveragePooling2D, Flatten, Dense
+from keras.layers import Input, Conv2D, BatchNormalization, Activation, AveragePooling2D, Flatten, Dense, Dropout
 from keras.regularizers import l2
 
 # -----------------
@@ -47,8 +47,9 @@ def resnet_layer(inputs,
         x = conv(x)
     return x
 
-def ResNet_TEMPLATE(n, inputs, activation):
+def ResNet_TEMPLATE(n, inputs, activation, dropout_flag, dropout_value):
     num_filters_in = 16
+    num_classes = 2
     # Start model definition.
 
     x = resnet_layer(inputs=inputs,
@@ -102,9 +103,15 @@ def ResNet_TEMPLATE(n, inputs, activation):
     # v2 has BN-ReLU before Pooling
     x = BatchNormalization()(x)
     x = Activation('relu')(x)
+    if dropout_flag == 1 or dropout_flag == 4 or dropout_flag == 5 or dropout_flag == 7:
+        x = Dropout(dropout_value)(x)
     x = AveragePooling2D(pool_size=8)(x)
     y = Flatten()(x)
-    outputs = Dense(2,
+    if dropout_flag == 2 or dropout_flag == 4 or dropout_flag == 6 or dropout_flag == 7:
+        y = Dropout(dropout_value)(y)
+    outputs = Dense(num_classes,
                     activation='softmax',
                     kernel_initializer='he_normal')(y)
+    if dropout_flag == 3 or dropout_flag == 5 or dropout_flag == 6 or dropout_flag == 7:
+        outputs = Dropout(dropout_value)(outputs)
     return outputs

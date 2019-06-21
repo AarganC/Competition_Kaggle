@@ -4,7 +4,7 @@ from keras.layers import Conv2D, BatchNormalization, Activation, Flatten, Dense,
 from keras.layers import multiply, add
 from keras.layers import Input
 
-def LSTM_TEMPLATE (inputs, nb_filtre, nb_layer):
+def LSTM_TEMPLATE (inputs, nb_filtre, nb_layer, dropout_flag, dropout_value):
     nb_filtre = int(nb_filtre)
     nb_filtre_b = nb_filtre*2
 
@@ -52,9 +52,19 @@ def LSTM_TEMPLATE (inputs, nb_filtre, nb_layer):
                       padding='same')(x)
     x = BatchNormalization()(outputs)
 
+    if dropout_flag == 1 or dropout_flag == 4 or dropout_flag == 5 or dropout_flag == 7:
+        x = Dropout(dropout_value)(x)
+
     x = keras.layers.add([x, outputs])
 
     y = Flatten()(x)
 
+    if dropout_flag == 2 or dropout_flag == 4 or dropout_flag == 6 or dropout_flag == 7:
+        y = Dropout(dropout_value)(y)
+
     outputs = Dense(2, activation='softmax')(y)
+
+    if dropout_flag == 3 or dropout_flag == 5 or dropout_flag == 6 or dropout_flag == 7:
+        outputs = Dropout(dropout_value)(outputs)
+
     return outputs

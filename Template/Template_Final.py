@@ -38,6 +38,10 @@ if __name__ == "__main__":
     print(nb_layer)
     nb_filtre = sys.argv[8]
     print(nb_filtre)
+    nb_dropout_flag = sys.argv[9]
+    print(nb_dropout_flag)
+    nb_dropout_value = sys.argv[10]
+    print(nb_dropout_value)
 
     ## Setup memory use
     config = tf.ConfigProto()
@@ -100,10 +104,10 @@ if __name__ == "__main__":
     ## Modele
     if name_modele == "LSTM":
         print(name_modele + " " + name_param)
-        outputs = LSTM(inputs, nb_filtre, nb_layer)
+        outputs = LSTM(inputs, nb_filtre, nb_layer, nb_dropout_flag, nb_dropout_value)
     if name_modele == "ResNet":
         print(name_modele + " " + name_param)
-        outputs = ResNet(nb_layer, inputs, activation)
+        outputs = ResNet(nb_layer, inputs, activation, nb_dropout_flag, nb_dropout_value)
 
     ## Run model
     model = Model(inputs=inputs, outputs=outputs)
