@@ -23,25 +23,25 @@ from datetime import datetime
 if __name__ == "__main__":
 
     name_param = sys.argv[1]
-    print(name_param)
+    print("name_param = " + name_param)
     name_modele = sys.argv[2]
-    print(name_modele)
+    print("name_modele = " +name_modele)
     batch_size = sys.argv[3]
-    print(batch_size)
+    print("batch_size = " + batch_size)
     epochs = sys.argv[4]
-    print(epochs)
+    print("epochs = " + epochs)
     lera = sys.argv[5]
-    print(lera)
+    print("lera = " + lera)
     activation = sys.argv[6]
-    print(activation)
+    print("activation = " + activation)
     nb_layer = sys.argv[7]
-    print(nb_layer)
+    print("nb_layer = " + nb_layer)
     nb_filtre = sys.argv[8]
-    print(nb_filtre)
+    print("nb_filtre = " + nb_filtre)
     nb_dropout_flag = sys.argv[9]
-    print(nb_dropout_flag)
+    print("nb_dropout_flag = " + nb_dropout_flag)
     nb_dropout_value = sys.argv[10]
-    print(nb_dropout_value)
+    print("nb_dropout_value = " + nb_dropout_value)
 
     ## Setup memory use
     config = tf.ConfigProto()
