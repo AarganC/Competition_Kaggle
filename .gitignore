@@ -2,3 +2,5 @@ Template/res_logs/*
 Template/.ipyn_checkpoints
 Data/data/*
 *.[jpg]
+result_prediction/*
+result_tensorflow/*
