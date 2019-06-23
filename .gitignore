@@ -4,3 +4,4 @@ Data/data/*
 *.[jpg]
 result_prediction/*
 result_tensorflow/*
+result_tensorflow_test1/*
