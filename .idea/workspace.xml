@@ -2,131 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176271d3-de61-4e93-b4a1-f2b666f42214" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/ERROR/LSTMtest11LSTM201906171925_es70_lr0.001_bs512_a_ly4_nf64&#10;/events.out.tfevents.1560799555.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/ERROR/LSTMtest12LSTM201906171927_es70_lr0.001_bs512_a_ly7_nf32&#10;/events.out.tfevents.1560799642.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest13LSTM201906171929_es70_lr0.001_bs512_a_ly7_nf16&#10;/events.out.tfevents.1560799763.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest14LSTM201906171941_es70_lr0.001_bs512_a_ly3_nf32&#10;/events.out.tfevents.1560800472.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest15LSTM201906171948_es70_lr0.001_bs512_a_ly3_nf16&#10;/events.out.tfevents.1560800886.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest16LSTM201906171952_es70_lr0.001_bs1024_a_ly7_nf32&#10;/events.out.tfevents.1560801145.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest17LSTM201906171953_es70_lr0.001_bs1024_a_ly7_nf16&#10;/events.out.tfevents.1560801242.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest18LSTM201906171955_es70_lr0.001_bs128_a_ly7_nf32&#10;/events.out.tfevents.1560801359.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest19LSTM201906172019_es70_lr0.001_bs128_a_ly7_nf16&#10;/events.out.tfevents.1560802773.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest20LSTM201906172032_es70_lr0.001_bs1024_a_ly3_nf32&#10;/events.out.tfevents.1560803529.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest22LSTM201906172043_es70_lr0.001_bs128_a_ly3_nf32&#10;/events.out.tfevents.1560804187.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest23LSTM201906172050_es70_lr0.001_bs128_a_ly3_nf16&#10;/events.out.tfevents.1560804632.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest24LSTM201906172055_es100_lr0.001_bs512_a_ly5_nf32&#10;/events.out.tfevents.1560804931.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest3LSTM201906171812_es70_lr0.001_bs1024_a_ly5_nf32&#10;/events.out.tfevents.1560795151.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest5LSTM201906171821_es70_lr0.001_bs128_a_ly5_nf32&#10;/events.out.tfevents.1560795689.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest6LSTM201906171835_es70_lr0.001_bs128_a_ly5_nf16&#10;/events.out.tfevents.1560796536.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest7LSTM201906171843_es70_lr0.01_bs512_a_ly5_nf32&#10;/events.out.tfevents.1560797028.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/LSTMtest8LSTM201906171857_es70_lr0.01_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560797843.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/LSTMtest10LSTM201906171918_es70_lr0.0001_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560799105.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/LSTMtest21LSTM201906172038_es70_lr0.001_bs1024_a_ly3_nf16&#10;/events.out.tfevents.1560803936.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/LSTMtest25LSTM201906172114_es100_lr0.001_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560806059.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/LSTMtest2LSTM201906171804_es70_lr0.001_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560794701.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/LSTMtest4LSTM201906171814_es70_lr0.001_bs1024_a_ly5_nf16&#10;/events.out.tfevents.1560795246.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/LSTMtest9LSTM201906171904_es70_lr0.0001_bs512_a_ly5_nf32&#10;/events.out.tfevents.1560798292.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/lstm/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest10ResNet201906172214_es70_lr0.001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560809697.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest11ResNet201906172220_es70_lr0.001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560810013.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest12ResNet201906172226_es70_lr0.001_bs128_selu_ly3_nf&#10;/events.out.tfevents.1560810421.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest13ResNet201906172234_es70_lr0.01_bs512_relu_ly3_nf&#10;/events.out.tfevents.1560810901.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest14ResNet201906172240_es70_lr0.01_bs1024_relu_ly5_nf&#10;/events.out.tfevents.1560811218.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest15ResNet201906172246_es70_lr0.01_bs1024_relu_ly3_nf&#10;/events.out.tfevents.1560811620.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest16ResNet201906172251_es70_lr0.01_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560811909.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest17ResNet201906172256_es70_lr0.01_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560812221.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest18ResNet201906172303_es70_lr0.01_bs1024_selu_ly3_nf&#10;/events.out.tfevents.1560812627.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest19ResNet201906172308_es70_lr0.01_bs512_tanh_ly3_nf&#10;/events.out.tfevents.1560812914.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest1ResNet201906172124_es70_lr0.001_bs512_relu_ly3_nf&#10;/events.out.tfevents.1560806674.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest20ResNet201906172313_es70_lr0.01_bs1024_tanh_ly5_nf&#10;/events.out.tfevents.1560813226.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest21ResNet201906172320_es70_lr0.01_bs1024_tanh_ly3_nf&#10;/events.out.tfevents.1560813634.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest22ResNet201906172325_es70_lr0.01_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560813921.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest23ResNet201906172330_es70_lr0.01_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560814230.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest24ResNet201906172337_es70_lr0.01_bs128_selu_ly3_nf&#10;/events.out.tfevents.1560814636.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest25ResNet201906172344_es70_lr0.0001_bs512_relu_ly3_nf&#10;/events.out.tfevents.1560815103.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest26ResNet201906172350_es70_lr0.0001_bs1024_relu_ly5_nf&#10;/events.out.tfevents.1560815423.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest27ResNet201906172357_es70_lr0.0001_bs1024_relu_ly3_nf&#10;/events.out.tfevents.1560815833.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest28ResNet201906180001_es70_lr0.0001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560816121.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest29ResNet201906180007_es70_lr0.0001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560816440.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest2ResNet201906172129_es70_lr0.001_bs1024_relu_ly5_nf&#10;/events.out.tfevents.1560806988.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest30ResNet201906180014_es70_lr0.0001_bs1024_selu_ly3_nf&#10;/events.out.tfevents.1560816849.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest31ResNet201906180018_es70_lr0.0001_bs512_tanh_ly3_nf&#10;/events.out.tfevents.1560817138.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest32ResNet201906180024_es70_lr0.0001_bs1024_tanh_ly5_nf&#10;/events.out.tfevents.1560817455.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest33ResNet201906180030_es70_lr0.0001_bs1024_tanh_ly3_nf&#10;/events.out.tfevents.1560817861.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest34ResNet201906180035_es70_lr0.0001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560818149.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest35ResNet201906180040_es70_lr0.0001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560818462.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest36ResNet201906180047_es70_lr0.0001_bs128_selu_ly3_nf&#10;/events.out.tfevents.1560818867.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest3ResNet201906172136_es70_lr0.001_bs1024_relu_ly3_nf&#10;/events.out.tfevents.1560807394.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest4ResNet201906172141_es70_lr0.001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560807683.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest5ResNet201906172146_es70_lr0.001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560807994.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest6ResNet201906172153_es70_lr0.001_bs1024_selu_ly3_nf&#10;/events.out.tfevents.1560808399.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest7ResNet201906172158_es70_lr0.001_bs512_tanh_ly3_nf&#10;/events.out.tfevents.1560808688.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest8ResNet201906172203_es70_lr0.001_bs1024_tanh_ly5_nf&#10;/events.out.tfevents.1560809001.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/ResNettest9ResNet201906172209_es70_lr0.001_bs1024_tanh_ly3_nf&#10;/events.out.tfevents.1560809407.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/resnet/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest10LSTM201906171918_es70_lr0.0001_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560799105.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest11LSTM201906171925_es70_lr0.001_bs512_a_ly4_nf64&#10;/events.out.tfevents.1560799555.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest12LSTM201906171927_es70_lr0.001_bs512_a_ly7_nf32&#10;/events.out.tfevents.1560799642.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest13LSTM201906171929_es70_lr0.001_bs512_a_ly7_nf16&#10;/events.out.tfevents.1560799763.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest14LSTM201906171941_es70_lr0.001_bs512_a_ly3_nf32&#10;/events.out.tfevents.1560800472.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest15LSTM201906171948_es70_lr0.001_bs512_a_ly3_nf16&#10;/events.out.tfevents.1560800886.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest16LSTM201906171952_es70_lr0.001_bs1024_a_ly7_nf32&#10;/events.out.tfevents.1560801145.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest17LSTM201906171953_es70_lr0.001_bs1024_a_ly7_nf16&#10;/events.out.tfevents.1560801242.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest18LSTM201906171955_es70_lr0.001_bs128_a_ly7_nf32&#10;/events.out.tfevents.1560801359.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest19LSTM201906172019_es70_lr0.001_bs128_a_ly7_nf16&#10;/events.out.tfevents.1560802773.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest20LSTM201906172032_es70_lr0.001_bs1024_a_ly3_nf32&#10;/events.out.tfevents.1560803529.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest21LSTM201906172038_es70_lr0.001_bs1024_a_ly3_nf16&#10;/events.out.tfevents.1560803936.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest22LSTM201906172043_es70_lr0.001_bs128_a_ly3_nf32&#10;/events.out.tfevents.1560804187.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest23LSTM201906172050_es70_lr0.001_bs128_a_ly3_nf16&#10;/events.out.tfevents.1560804632.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest24LSTM201906172055_es100_lr0.001_bs512_a_ly5_nf32&#10;/events.out.tfevents.1560804931.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest25LSTM201906172114_es100_lr0.001_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560806059.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest2LSTM201906171804_es70_lr0.001_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560794701.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest3LSTM201906171812_es70_lr0.001_bs1024_a_ly5_nf32&#10;/events.out.tfevents.1560795151.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest4LSTM201906171814_es70_lr0.001_bs1024_a_ly5_nf16&#10;/events.out.tfevents.1560795246.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest5LSTM201906171821_es70_lr0.001_bs128_a_ly5_nf32&#10;/events.out.tfevents.1560795689.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest6LSTM201906171835_es70_lr0.001_bs128_a_ly5_nf16&#10;/events.out.tfevents.1560796536.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest7LSTM201906171843_es70_lr0.01_bs512_a_ly5_nf32&#10;/events.out.tfevents.1560797028.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest8LSTM201906171857_es70_lr0.01_bs512_a_ly5_nf16&#10;/events.out.tfevents.1560797843.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/LSTMtest9LSTM201906171904_es70_lr0.0001_bs512_a_ly5_nf32&#10;/events.out.tfevents.1560798292.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest10ResNet201906172214_es70_lr0.001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560809697.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest11ResNet201906172220_es70_lr0.001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560810013.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest12ResNet201906172226_es70_lr0.001_bs128_selu_ly3_nf&#10;/events.out.tfevents.1560810421.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest13ResNet201906172234_es70_lr0.01_bs512_relu_ly3_nf&#10;/events.out.tfevents.1560810901.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest14ResNet201906172240_es70_lr0.01_bs1024_relu_ly5_nf&#10;/events.out.tfevents.1560811218.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest15ResNet201906172246_es70_lr0.01_bs1024_relu_ly3_nf&#10;/events.out.tfevents.1560811620.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest16ResNet201906172251_es70_lr0.01_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560811909.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest17ResNet201906172256_es70_lr0.01_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560812221.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest18ResNet201906172303_es70_lr0.01_bs1024_selu_ly3_nf&#10;/events.out.tfevents.1560812627.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest19ResNet201906172308_es70_lr0.01_bs512_tanh_ly3_nf&#10;/events.out.tfevents.1560812914.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest1ResNet201906172124_es70_lr0.001_bs512_relu_ly3_nf&#10;/events.out.tfevents.1560806674.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest20ResNet201906172313_es70_lr0.01_bs1024_tanh_ly5_nf&#10;/events.out.tfevents.1560813226.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest21ResNet201906172320_es70_lr0.01_bs1024_tanh_ly3_nf&#10;/events.out.tfevents.1560813634.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest22ResNet201906172325_es70_lr0.01_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560813921.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest23ResNet201906172330_es70_lr0.01_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560814230.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest24ResNet201906172337_es70_lr0.01_bs128_selu_ly3_nf&#10;/events.out.tfevents.1560814636.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest25ResNet201906172344_es70_lr0.0001_bs512_relu_ly3_nf&#10;/events.out.tfevents.1560815103.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest26ResNet201906172350_es70_lr0.0001_bs1024_relu_ly5_nf&#10;/events.out.tfevents.1560815423.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest27ResNet201906172357_es70_lr0.0001_bs1024_relu_ly3_nf&#10;/events.out.tfevents.1560815833.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest28ResNet201906180001_es70_lr0.0001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560816121.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest29ResNet201906180007_es70_lr0.0001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560816440.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest2ResNet201906172129_es70_lr0.001_bs1024_relu_ly5_nf&#10;/events.out.tfevents.1560806988.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest30ResNet201906180014_es70_lr0.0001_bs1024_selu_ly3_nf&#10;/events.out.tfevents.1560816849.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest31ResNet201906180018_es70_lr0.0001_bs512_tanh_ly3_nf&#10;/events.out.tfevents.1560817138.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest32ResNet201906180024_es70_lr0.0001_bs1024_tanh_ly5_nf&#10;/events.out.tfevents.1560817455.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest33ResNet201906180030_es70_lr0.0001_bs1024_tanh_ly3_nf&#10;/events.out.tfevents.1560817861.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest34ResNet201906180035_es70_lr0.0001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560818149.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest35ResNet201906180040_es70_lr0.0001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560818462.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest36ResNet201906180047_es70_lr0.0001_bs128_selu_ly3_nf&#10;/events.out.tfevents.1560818867.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest3ResNet201906172136_es70_lr0.001_bs1024_relu_ly3_nf&#10;/events.out.tfevents.1560807394.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest4ResNet201906172141_es70_lr0.001_bs512_selu_ly3_nf&#10;/events.out.tfevents.1560807683.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest5ResNet201906172146_es70_lr0.001_bs1024_selu_ly5_nf&#10;/events.out.tfevents.1560807994.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest6ResNet201906172153_es70_lr0.001_bs1024_selu_ly3_nf&#10;/events.out.tfevents.1560808399.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest7ResNet201906172158_es70_lr0.001_bs512_tanh_ly3_nf&#10;/events.out.tfevents.1560808688.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest8ResNet201906172203_es70_lr0.001_bs1024_tanh_ly5_nf&#10;/events.out.tfevents.1560809001.instance-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_tensorflow_test1/res_logs/test1/test1/ResNettest9ResNet201906172209_es70_lr0.001_bs1024_tanh_ly3_nf&#10;/events.out.tfevents.1560809407.instance-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest101.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest102.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest103.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest104.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest105.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest211.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest212.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest213.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest214.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2501.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2502.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2503.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2504.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2505.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2506.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2507.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2508.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2509.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2510.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2511.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2512.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2513.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2514.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2515.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2516.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2517.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2518.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2519.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2520.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2521.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2522.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2523.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2524.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2525.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2526.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2527.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2528.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2529.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2530.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2531.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2532.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2533.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2534.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2535.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2536.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2537.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2538.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2539.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2540.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2541.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest2542.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest42.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest43.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest901.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest902.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest903.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest904.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest905.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest906.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest907.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest908.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest909.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest910.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest911.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest912.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest913.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest914.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest915.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest916.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest917.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest918.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest919.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest920.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest921.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest922.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest923.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest924.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest925.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest926.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest927.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest928.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest929.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest930.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest931.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest932.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest933.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest934.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest935.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest936.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest937.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest938.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest939.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest940.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest941.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_LSTMtest942.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/predict_LSTM_﻿LSTMtest21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest2501.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_LSTMtest9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_﻿LSTMtest1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_LSTM_﻿LSTMtest21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest32.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest34.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest35.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest36.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/prediction/test1/predict_ResNet_ResNettest9.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +277,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="102">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
@@ -319,20 +349,7 @@
             <path>
               <item name="CompetitionKaggle" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompetitionKaggle" type="462c0819:PsiDirectoryNode" />
-              <item name="result_tensorflow_test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitionKaggle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitionKaggle" type="462c0819:PsiDirectoryNode" />
-              <item name="result_tensorflow_test1" type="462c0819:PsiDirectoryNode" />
-              <item name="res_logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitionKaggle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitionKaggle" type="462c0819:PsiDirectoryNode" />
-              <item name="result_tensorflow_test1" type="462c0819:PsiDirectoryNode" />
-              <item name="res_logs" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="102">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
