@@ -11,6 +11,6 @@ HyperParam/.DS_Store
 Template/.ipynb_checkpoints/
 result_prediction2/*
 Template/__pycache__/*
-.idea/workspace.xml
+.idea/*
 .DS_Store
 Template/.DS_Store
