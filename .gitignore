@@ -5,3 +5,12 @@ Data/data/*
 result_prediction/*
 result_tensorflow/*
 result_tensorflow_test1/*
+result_tensorflow2/*
+*.csv
+HyperParam/.DS_Store
+Template/.ipynb_checkpoints/
+result_prediction2/*
+Template/__pycache__/*
+.idea/workspace.xml
+.DS_Store
+Template/.DS_Store

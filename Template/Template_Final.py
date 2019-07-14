@@ -14,6 +14,7 @@ from keras.models import Model
 from keras.optimizers import Adam
 from Template_LSTM import LSTM_TEMPLATE as LSTM
 from Template_ResNet import ResNet_TEMPLATE as ResNet
+from Template_MLP import MLP
 from keras.callbacks import TensorBoard
 from datetime import datetime
 
@@ -45,7 +46,7 @@ if __name__ == "__main__":
 
     ## Setup memory use
     config = tf.ConfigProto()
-    config.gpu_options.allow_growth=True
+    config.gpu_options.allow_growth = True
     sess = tf.Session(config=config)
     
     ## Preprocessing
@@ -55,65 +56,60 @@ if __name__ == "__main__":
     filenames = ['../Data/data/train/' + fname for fname in train_csv['id'].tolist()]
     labels = train_csv['has_cactus'].tolist()
 
-    train=[]
+    train = []
     for file_name in filenames:
-        img=cv2.imread(file_name)
-        img=img.reshape(32*32*3,)
-        img=img/255
+        img = cv2.imread(file_name)
+        img = img.reshape(32*32*3,)
+        img = img/255
         train.append(img)
 
     x_train, x_test, y_train, y_test = train_test_split(train,
                                                         labels,
                                                         train_size=0.9)
 
-    num_train = len(x_train)
-    num_val = len(x_test)
 
     x_train = np.array(x_train)
-    x_train = np.reshape(x_train, (-1, 32, 32, 3))
+    if name_modele != 'MLP':
+        x_train = np.reshape(x_train, (-1, 32, 32, 3))
     print(x_train.shape)
 
     x_test = np.array(x_test)
-    x_test = np.reshape(x_test, (-1, 32, 32, 3))
+    if name_modele != 'MLP':
+        x_test = np.reshape(x_test, (-1, 32, 32, 3))
     print(x_test.shape)
+
+    if name_modele == 'MLP':
+        inputs = Input(shape=train[0].shape)
+    else:
+        inputs = Input(shape=(32, 32, 3))
+    print(inputs)
 
     y_train = keras.utils.to_categorical(y_train, 2)
     y_test = keras.utils.to_categorical(y_test, 2)
 
-    inputs = Input(shape=(32, 32, 3))
-    print(inputs)
-
-    ## Get hyper param
-#    with open('/Users/aargancointepas/Documents/ESGI-4IBD/MachineLearning/CompetitionKaggle/HyperParam/file_test.csv',
-#              'r') as csvFile:
-#        reader = csv.reader(csvFile)
-#        for row in reader:
-#            row = row[0]
-#            row = row.split(';')
-#            name_param = row[0]
-#            name_modele = row[1]
-#            batch_size = row[2]
-#            epochs = row[3]
-#            lera = row[4]
-#            activation = row[5]
-#            nb_layer = row[6]
-#            print(nb_layer)
-#            nb_filtre = row[7]
-#            print(nb_filtre)
 
     ## Modele
+
     if name_modele == "LSTM":
         print(name_modele + " " + name_param)
         outputs = LSTM(inputs, nb_filtre, nb_layer, nb_dropout_flag, nb_dropout_value)
     if name_modele == "ResNet":
         print(name_modele + " " + name_param)
         outputs = ResNet(nb_layer, inputs, activation, nb_dropout_flag, nb_dropout_value)
+    if name_modele == "MLP":
+        outputs = MLP(inputs, activation, nb_layer, nb_filtre)
 
     ## Run model
     model = Model(inputs=inputs, outputs=outputs)
-    model.compile(loss='categorical_crossentropy',
-                  optimizer=Adam(lr=float(lera)),
-                  metrics=['accuracy'])
+
+    if name_modele == 'MLP':
+        model.compile(loss='binary_crossentropy',
+                      optimizer=Adam(lr=float(lera)),
+                      metrics=['accuracy'])
+    else:
+        model.compile(loss='categorical_crossentropy',
+                      optimizer=Adam(lr=float(lera)),
+                      metrics=['accuracy'])
 
     model.summary()
 
